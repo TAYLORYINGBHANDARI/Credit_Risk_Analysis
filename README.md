@@ -24,6 +24,7 @@ Data Sources: LoanStats_2019Q1.csv
 ## Results:
 
 Naive Random Oversampling
+![image](https://user-images.githubusercontent.com/85265816/136675595-d3f2da14-f808-4dbf-a86a-987c4192e9b3.png)
 
 * Accuracy Score: 67.42%
 * Precision High Risk: 1%
@@ -34,6 +35,7 @@ Naive Random Oversampling
 
 
 SMOTE Oversampling
+![image](https://user-images.githubusercontent.com/85265816/136675598-d4074ec1-4b40-4935-81fd-1b36cf41b8d7.png)
 
 * Accuracy Score: 66.23%
 * Precision High Risk: 1%
@@ -42,6 +44,7 @@ SMOTE Oversampling
 * Recall Low Risk: 69%
 
 CLUSTER_CENTROID undersampling
+![image](https://user-images.githubusercontent.com/85265816/136675599-d61c34a5-1d08-459b-8d55-d32f3c8c3841.png)
 
 * Accuracy Score: 54.42%
 * Precision High Risk: 1%
@@ -50,6 +53,8 @@ CLUSTER_CENTROID undersampling
 * Recall Low Risk: 40%
 
 SMOTEENN under&over sampling
+
+![image](https://user-images.githubusercontent.com/85265816/136675606-a3311156-eb5c-4c73-9399-f2b3cba82aee.png)
 
 * Accuracy Score: 54.42%
 * Precision High Risk: 1%
@@ -60,6 +65,8 @@ SMOTEENN under&over sampling
 
 Balanced Random Forest Classifier
 
+![image](https://user-images.githubusercontent.com/85265816/136675610-3575552d-5328-47f6-9f87-6aaa2292ebda.png)
+
 * Accuracy Score: 75.58%
 * Precision High Risk: 3%
 * Precision Low Risk: 100%
@@ -68,6 +75,7 @@ Balanced Random Forest Classifier
   
   
 Easy Ensemble AdaBoost classifier
+<img width="854" alt="image" src="https://user-images.githubusercontent.com/85265816/136675627-34c76845-beb7-4661-b4f3-600ca521007e.png">
 
 * Accuracy Score: 93.16%
 * Precision High Risk: 9%
